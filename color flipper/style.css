@@ -1,0 +1,82 @@
+
+  * {  
+    margin: 0;  
+    padding: 0;  
+    box-sizing: border-box;  
+} 
+
+body {  
+    font-family: Arial, sans-serif;  
+    background-color: #1581a5;  
+    text-align: center;
+    align-items: center;
+} 
+
+nav { 
+    background-color: #ffc8e8; /* Dark background */  
+    color: white;           /* Light text */  
+    padding: 20px;         /* Padding around the header */  
+    text-align: center;     /* Center content */  
+}
+
+h2{
+  text-align: center;
+  padding: 8px;
+  background-color:#ffa8db;
+}
+
+h3{
+    float: left;
+    font-size: 1.5em;       /* Large font size for title */  
+    margin-bottom: 10px;
+}
+
+.nav-list {  
+    list-style-type: none;  /* Remove bullet points */  
+} 
+
+.nav-list li {  
+    display: inline-flex;        /* Horizontal alignment of nav items */  
+    margin: 0 15px;        /* Space between items */  
+} 
+
+.nav-list a {  
+    color: rgb(57, 21, 187); 
+    font-size: 20px;         /* Link color */  
+    text-decoration: none; /* Remove underline */  
+    transition: color 0.3s; /* Smooth transition for color change */  
+}
+
+.nav-list a:hover {  
+    color: #21a661;        /* Change color on hover */  
+} 
+
+
+#btn{  
+    background-color:#21a661; /* Green background */   
+    color: rgb(255, 255, 255); /* White text */  
+    padding: 15px 32px ; /* Padding around text */  
+    text-align: center; /* Centered text */  
+    text-decoration: none; /* No underline */  
+    display: inline-block; /* Inline-block element */  
+    font-size: 16px; /* Font size */  
+    margin: 4px 2px; /* Margin */  
+    cursor: pointer; /* Pointer cursor on hover */  
+    border-radius: 4px; /* Rounded corners */  
+    transition: background-color 0.3s; /* Smooth background color change on hover */  
+}  
+
+#btn:hover {  
+    background-color: #179d20; /* Darker green on hover */  
+}  
+
+#btn:active {  
+    background-color: #3e8e41; /* Even darker green when active */  
+    transform: translateY(2px); /* Button "push" effect */  
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
